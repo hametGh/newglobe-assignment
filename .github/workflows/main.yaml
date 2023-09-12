@@ -20,14 +20,18 @@ jobs:
       - name: Create Config
         run: |
           mkdir src/config
+          rm -rf src/config/config.ts
           echo "export const PUBLIC_URL = \"${{ secrets.APP_PUBLIC_URL }}\"" > src/config/config.ts
 
       - name: Install dependencies
         run: npm install
 
+      - name: Run tests
+        run: npm run test
+
       - name: Build the React app
         run: npm run build
-        
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
