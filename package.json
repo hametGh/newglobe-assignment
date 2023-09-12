@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "homepage": "https://hametGh.github.io/newglobe-assignment",
   "directories": {
     "test": "tests"
   },
