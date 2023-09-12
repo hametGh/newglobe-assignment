@@ -1,1 +1,0 @@
-# newglobe-assignment
