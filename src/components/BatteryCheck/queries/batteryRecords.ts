@@ -1,6 +1,7 @@
 import { BatteryDataEntry } from "../../../api/interface/BatteryDataEntry"
 import { api } from "../../../api/utils/api.js"
+import { PUBLIC_URL } from "../../../config/config"
 
 export const batteryRecords = () => {
-    return api<BatteryDataEntry[]>("/data/battery-data.json")
+    return api<BatteryDataEntry[]>(PUBLIC_URL + "/data/battery-data.json")
 }

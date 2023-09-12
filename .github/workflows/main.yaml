@@ -17,6 +17,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "18.14.0"
+      - name: Create Config
+        run: |
+          mkdir config
+          echo "export const PUBLIC_URL = \"${{ secrets.APP_PUBLIC_URL }}\"" > config/config.ts
 
       - name: Install dependencies
         run: npm install
