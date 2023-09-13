@@ -42,8 +42,6 @@ In a better world, the following improvements could be made to this project:
 
 - **Test Coverage:** Cover the codebase with more tests to ensure reliability and maintainability.
 
-- **Build Tool:** Consider using build tools like Webpack to optimize and bundle the project for production.
-
 - **Continuous Integration:** Implement continuous integration (CI) pipelines for better development workflow and automated testing.
 
 - **Framework Integration:** Explore the possibility of integrating a JavaScript framework like React to improve code structure and maintainability.
