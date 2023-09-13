@@ -1,5 +1,5 @@
-import { addDevice } from "./addDevice.js";
-import { groupDataByAcademyAndSerial, parseGroupKey } from "./groupAcademy.js";
+import { addDevice } from "./addDevice";
+import { groupDataByAcademyAndSerial, parseGroupKey } from "./groupAcademy";
 // Maximum valid battery usage percentage
 const MAX_VALID_USAGE = 0.3;
 // Function to calculate battery usage for each academy

@@ -7,9 +7,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { batteryRecords } from "./queries/batteryRecords.js";
-import { calculateBatteryUsage } from "./utils/calculateConsumption.js";
-import { displayResults } from './utils/displayResult.js';
+import { batteryRecords } from "./queries/batteryRecords";
+import { calculateBatteryUsage } from "./utils/calculateConsumption";
+import { displayResults } from './utils/displayResult';
 export const BatteryCheck = () => __awaiter(void 0, void 0, void 0, function* () {
     let allBatteryRecord = yield batteryRecords();
     let calculatedRecords = calculateBatteryUsage(allBatteryRecord);

@@ -1,4 +1,4 @@
-import { BatteryCheck } from "./components/index.js";
+import { BatteryCheck } from "./components/index";
 document.addEventListener("DOMContentLoaded", function () {
     BatteryCheck();
 });
