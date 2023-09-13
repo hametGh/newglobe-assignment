@@ -1,1 +1,1 @@
-export * from './BatteryCheck/index.js'
+export * from './BatteryCheck/index'

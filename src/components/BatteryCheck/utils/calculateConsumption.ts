@@ -1,7 +1,7 @@
 import { Academy } from "../../../api/interface/Academy";
 import { BatteryDataEntry } from "../../../api/interface/BatteryDataEntry";
-import { addDevice } from "./addDevice.js";
-import { groupDataByAcademyAndSerial, parseGroupKey } from "./groupAcademy.js";
+import { addDevice } from "./addDevice";
+import { groupDataByAcademyAndSerial, parseGroupKey } from "./groupAcademy";
 
 // Maximum valid battery usage percentage
 const MAX_VALID_USAGE = 0.3;

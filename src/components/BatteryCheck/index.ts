@@ -1,6 +1,6 @@
-import { batteryRecords } from "./queries/batteryRecords.js";
-import { calculateBatteryUsage } from "./utils/calculateConsumption.js";
-import { displayResults } from './utils/displayResult.js';
+import { batteryRecords } from "./queries/batteryRecords";
+import { calculateBatteryUsage } from "./utils/calculateConsumption";
+import { displayResults } from './utils/displayResult';
 
 
 export const BatteryCheck = async () => {
